@@ -1,0 +1,29 @@
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 100vw;
+}
+
+.side-navbar {
+  display: none;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  header nav div.collapse {
+    display: none;
+  }
+  header .navbar {
+  }
+
+  .navbar .logo {
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
