@@ -1,6 +1,6 @@
 
-const ctx = document.getElementById('lineChart').getContext('2d');
-const myChart = new Chart(ctx, {
+const lineChart = document.getElementById('lineChart').getContext('2d');
+const myChart = new Chart(lineChart, {
     type: 'line',
     data: {
         labels: ['2012/13','2013/14','2014/15','2015/2016','2016/2017','2017/2018','2018/2019', '2019/2020', '2020/2021'],
