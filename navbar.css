@@ -17,11 +17,11 @@ header .navbar {
   header nav div.collapse {
     display: none;
   }
-  header .navbar {
+  /* header .navbar {
   }
 
   .navbar .logo {
-  }
+  } */
 
   .navbar-toggler {
     display: block;
