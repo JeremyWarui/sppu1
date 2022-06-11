@@ -62,15 +62,23 @@
         </div>
 
         <!-- side navbar -->
-        <div class="side-navbar">
-          <a href="#landing">Home</a>
-          <a href="#our-department">Department</a>
-          <a href="#stats">Statistics</a>
-          <a href="#pc">Performance Contracting</a>
-          <a href="#team">Team</a>
-          <a href="#documents">Documents</a>
-          <a href="#gallery">Gallery</a>
+        <div class="side-navbar" id="sideNavbar">
+          <button class="close-btn" type="button">
+            <img
+              class="icon"
+              src="img/icon-close-menu.svg"
+              alt="close button"
+            />
+          </button>
+          <a class="side-link" href="#landing">Home</a>
+          <a class="side-link" href="#our-department">Department</a>
+          <a class="side-link" href="#stats">Statistics</a>
+          <a class="side-link" href="#pc">Performance Contracting</a>
+          <a class="side-link" href="#team">Team</a>
+          <a class="side-link" href="#documents">Documents</a>
+          <a class="side-link" href="#gallery">Gallery</a>
         </div>
+        <div class="overlay hide"></div>
         <!-- end of side navbar -->
       </nav>
 
@@ -547,9 +555,9 @@
 
     <!--Footer Section Ends Here-->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/sideNavbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!--     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
     <script src="js/lineChart.js"></script>
     <script src="js/doughnut.js"></script>
     <script src="js/agpoLineChart.js"></script>
